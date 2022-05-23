@@ -1,0 +1,158 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Live</string>
+    <string name="default_notification_channel_id" translatable="false">4857</string>
+
+    <array name="debug_menu">
+        <item>Set tracking API</item>
+        <item>Set REST API</item>
+        <item>Set device meta (name|data)</item>
+        <item>Reset</item>
+    </array>
+
+    <string name="welcome_to_hypertrack_live">Welcome to HyperTrack Live!</string>
+    <string name="i_m_ready">I\'m ready!</string>
+    <string name="welcome_steps">
+        Step 1: Verify your publishable key\nStep 2: Allow use of your location
+    </string>
+    <string name="verify_your_publishable_key">Verify your publishable key</string>
+    <string name="this_will_help_us_link_your_device_to_your_hypertrack_account">This will help us link your device to your HyperTrack account</string>
+    <string name="you_can_copy_the_key_from_your_welcome_email_or_hypertrack_dashboard">You can copy the key from your welcome email or HyperTrack dashboard</string>
+    <string name="paste_key_here">Paste key here</string>
+    <string name="verify">Verify</string>
+    <string name="valid_publishable_key_required">Valid publishable key required</string>
+    <string name="publishable_key_you_entered_is_invalid">The publishable key you entered is invalid. Please enter a valid key.</string>
+    <string name="check_your_network_connection">Check your network connection. Probably it\'s disconnected.</string>
+    <string name="we_need_your_permission">We need your permission to access your Location to track and share your live location</string>
+    <string name="allow_access">Allow access</string>
+    <string name="open">Open</string>
+    <string name="app_settings">App settings</string>
+    <string name="wireless_settings">Wireless settings</string>
+    <string name="you_can_allow">You can allow HyperTrack Live to access this device\'s location in settings</string>
+    <string name="share_live">Share</string>
+    <string name="start_trip">Start trip</string>
+    <string name="end">End</string>
+    <string name="end_trip">End trip</string>
+    <string name="tap_to_restart_tracking">Tap to restart tracking</string>
+    <string name="tap_to_turn_location_settings">Tap to turn on location in settings</string>
+    <string name="search_for_the_destination">Search for the destination</string>
+    <string name="where_are_you_going">Where are you going?</string>
+    <string name="i_m_going_to">I’m going to</string>
+    <string name="set_on_map">Set on map</string>
+    <string name="share_eta">Share ETA</string>
+    <string name="share_trip">Share trip</string>
+    <string name="not_decided_yet">Not decided yet</string>
+    <string name="_min">%d min</string>
+    <string name="arriving_now">Arriving now</string>
+    <string name="arrived">Arrived</string>
+    <string name="close">Close</string>
+    <string name="miles_mins">%.2f miles • %d mins</string>
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="email_address">Business email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="incorrect_username_or_pass">Incorrect username or password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up_a_new_account">Create a new account</string>
+    <string name="_14_day_free_trial_no_credit_card_required">Free 100k events per month. No credit card required.</string>
+    <string name="company_or_product_name">Business name</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="accept_continue"><![CDATA[Accept & Continue]]></string>
+    <string name="i_agree_to_terms_of_service"><![CDATA[By clicking on the Accept & Continue button I agree to <a href="https://www.hypertrack.com/terms">Terms of Service</a> and <a href="https://www.hypertrack.com/agreement">HyperTrack SaaS Agreement</a>]]></string>
+    <string name="all_fields_required">All fields required</string>
+    <string name="email_password_fields_required">Email and password fields are required</string>
+    <string name="my_app_manages">My app manages</string>
+    <string name="my_app_would_track">My app would track</string>
+    <string name="my_app_is_for">My app is for</string>
+    <string name="verify_your_email">Verify your email</string>
+    <string name="we_have_sent_you_an_email">We have sent you an email with verification link. Please click on the link in the email to continue</string>
+    <string name="i_have_verified">I have verified</string>
+    <string name="resend_verification_link">Resend verification link</string>
+    <string name="user_does_not_exist" tools:ignore="PrivateResource">User does not exist</string>
+    <string name="user_is_not_confirmed">User is not confirmed</string>
+    <string name="an_account_exists">An account with the given email already exists</string>
+    <string name="tracking">Tracking</string>
+    <string name="tracking_is">Tracking is %s</string>
+    <string name="searching_">Searching…</string>
+    <string name="status_stopped">stopped</string>
+    <string name="yes_i_m_going_to">I’m going to…</string>
+    <string name="trip_to">Trip to</string>
+    <string name="arrival">Arrival</string>
+    <string name="away">Away</string>
+    <string name="you_have_ongoing_trips">You have %d ongoing %s</string>
+    <string name="trip">Trip</string>
+    <string name="trips">Trips</string>
+    <string name="trip_started_from">Trip started from</string>
+    <string name="lat_lng">%.4f, %.4f</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="disabled">Disabled</string>
+    <string name="unknown">Unknown</string>
+    <string name="events_expired_this_month">Free events expired this month</string>
+    <string name="upgrade_to_prod">Upgrade to production plan</string>
+    <string name="resume">Resume</string>
+    <string name="end_sharing__">End sharing?</string>
+    <string name="trip_will_be_ended_are_you_sure">You haven\'t reach the destination yet, end sharing will end this trip.</string>
+    <string name="confirm">Confirm</string>
+    <string name="share_trip_via">Share trip via</string>
+    <string name="invite_via">Invite via</string>
+
+    <array name="categories">
+        <item>not selected</item>
+        <item name="deliveries">Deliveries</item>
+        <item name="visits">Visits</item>
+        <item name="rides">Rides</item>
+    </array>
+    <array name="category_names">
+        <item>not selected</item>
+        <item>deliveries</item>
+        <item>visits</item>
+        <item>rides</item>
+    </array>
+
+    <array name="scale">
+        <item>not selected</item>
+        <item>Commercial use</item>
+        <item>COVID-19 response</item>
+        <item>Personal use</item>
+        <item>Public good</item>
+    </array>
+
+    <array name="scale_names">
+        <item>not selected</item>
+        <item>commercial_use</item>
+        <item>covid_response</item>
+        <item>personal_use</item>
+        <item>public_good</item>
+    </array>
+
+    <array name="state">
+        <item>not selected</item>
+        <item>My workforce</item>
+        <item>My customer\'s workforce</item>
+    </array>
+
+    <array name="state_names">
+        <item>not selected</item>
+        <item>my_workforce</item>
+        <item>my_customers</item>
+    </array>
+
+    <string name="essential_service_worker">I am/represent an essential service worker in my region</string>
+    <string name="add_home_address">Add home address</string>
+    <string name="search_address">Search address</string>
+    <string name="skip">SKIP</string>
+    <string name="username_phone">User Name / Phone # (+9111&#8230;)</string>
+    <string name="phone">Phone number</string>
+    <string name="name">Name</string>
+    <string name="phone_number_user_name">%s (%s)</string>
+    <string name="tracking_is_started">Tracking is started</string>
+    <string name="set_home_address">Set home address</string>
+    <string name="home">Home</string>
+    <string name="sign_out">Sign out</string>
+    <string name="no_connection">No connection</string>
+    <string name="invite">Invite</string>
+
+</resources>
